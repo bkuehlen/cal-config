@@ -11,7 +11,7 @@ var result = hash.split('&').reduce(function (res, item) {
     return res;
 }, {});
 
-var url = 'https://bkuehlen.github.io/cal-config/app/einlegeblaetter/' + result.vendor + '/' + result.year + '/einlegeblaetter.pdf';
+var url = 'https://bkuehlen.github.io/cal-config/app/einlegeblaetter/' + result.vendor + '/' + result.year + '/einlagen.pdf';
 var pageNum = parseInt(result.page);
 
 /**
