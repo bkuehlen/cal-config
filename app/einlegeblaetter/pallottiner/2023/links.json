@@ -1,1 +1,40 @@
-{}
+[
+    {
+        "pdf": "/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
+        "regions": [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 0.5, 
+                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/kalender-app/"
+            },
+            {
+                "x": 0.0, 
+                "y": 0.5, 
+                "width": 1.0, 
+                "height": 0.5, 
+                "target": "https://www.pallottiner.org"
+            }
+        ]
+    },
+    {
+        "pdf": "/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
+        "regions": [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 0.5, 
+                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/kalender-app/"
+            },
+            {
+                "x": 0.0, 
+                "y": 0.5, 
+                "width": 1.0, 
+                "height": 0.5, 
+                "target": "https://www.pallottiner.org"
+            }
+        ]
+    }
+]
