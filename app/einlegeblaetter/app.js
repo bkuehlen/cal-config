@@ -29,7 +29,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs
 
 
 //usage:
-readTextFile(calendarVendor + "/" + calendarYear + "links.json", function(text){
+readTextFile(calendarVendor + "/" + calendarYear + "/links.json", function(text){
   var data = JSON.parse(text);
   pageParams = data[pageNum-1];
   console.log(pageParams);
