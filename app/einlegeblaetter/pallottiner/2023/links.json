@@ -1,6 +1,6 @@
 [
     {
-        "pdf": "/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
+        "pdf": "https://bkuehlen.github.io/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
         "regions": [
             {
                 "x": 0.0, 
@@ -19,7 +19,7 @@
         ]
     },
     {
-        "pdf": "/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
+        "pdf": "https://bkuehlen.github.io/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
         "regions": [
             {
                 "x": 0.0, 
