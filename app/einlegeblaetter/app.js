@@ -102,7 +102,7 @@ function handleClickOnCursorPosition(canvas, event) {
         if( yPercent > pageParams[i].y && yPercent < pageParams[i].y + pageParams[i].height) {
           console.log(pageParams[i].target);
 
-          window.location.href = pageParams[i].target.replace("https://", "sblank://").replace("http://", "blank://");
+          window.location.href = pageParams[i].target.replace("https://", "sblank://").replace("http://", "blank://") + "?x=" + xPercent + "&y=" + yPercent;
         }
       }
       
