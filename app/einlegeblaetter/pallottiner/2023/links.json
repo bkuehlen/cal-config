@@ -1,40 +1,116 @@
-[
-    {
-        "pdf": "https://bkuehlen.github.io/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
-        "regions": [
+{
+    "pdf": "https://bkuehlen.github.io/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
+    "pages": [
+        [
             {
                 "x": 0.0, 
                 "y": 0.0, 
                 "width": 1.0, 
-                "height": 0.5, 
-                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/kalender-app/"
-            },
-            {
-                "x": 0.0, 
-                "y": 0.5, 
-                "width": 1.0, 
-                "height": 0.5, 
-                "target": "https://www.pallottiner.org"
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/verstehst-du-was-du-liest/"
             }
-        ]
-    },
-    {
-        "pdf": "https://bkuehlen.github.io/cal-config/app/einlegeblaetter/pallottiner/2023/einlagen.pdf",
-        "regions": [
+        ],
+        [
             {
                 "x": 0.0, 
                 "y": 0.0, 
                 "width": 1.0, 
-                "height": 0.5, 
-                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/kalender-app/"
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/zuspruch-und-inspiration/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 0.6, 
+                "target": "https://www.pallotti-verlag.de/produkt/ein-eid-auf-hitler-nie/"
             },
             {
                 "x": 0.0, 
-                "y": 0.5, 
+                "y": 0.6, 
                 "width": 1.0, 
-                "height": 0.5, 
-                "target": "https://www.pallottiner.org"
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/glaubenszeuge-im-kz-dachau/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/mit-dem-leib-glauben/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/vinzenz-pallotti-ein-lebensbild/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 0.75, 
+                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/das-zeichen/"
+            },
+            {
+                "x": 0.0, 
+                "y": 0.75, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallottiner.org/angebote/lesen-sehen-hoeren/das-zeichen/probe/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallottiner.org/mitmachen/spenden/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/beteiligung-vielfalt-dialog/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallotti-verlag.de/produkt/weil-er-uns-ruft/"
+            }
+        ],
+        [
+            {
+                "x": 0.0, 
+                "y": 0.0, 
+                "width": 1.0, 
+                "height": 0.75, 
+                "target": "https://www.pallottiner.org/angebote/gaestehaeuser/"
+            },
+            {
+                "x": 0.0, 
+                "y": 0.75, 
+                "width": 1.0, 
+                "height": 1.0, 
+                "target": "https://www.pallottiner.org/wp-content/uploads/2021/09/pallottiner-gaestehauser-prospekt.pdf"
             }
         ]
-    }
-]
+    ]
+}

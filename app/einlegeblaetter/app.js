@@ -31,14 +31,13 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs
 //usage:
 readTextFile(calendarVendor + "/" + calendarYear + "/links.json", function(text){
   var data = JSON.parse(text);
-  pageParams = data[pageNum-1];
-  console.log(pageParams);
+  pageParams = data.pages[pageNum-1];
   
   /**
    * Asynchronously downloads PDF.
    */
   // pageParams.pdfUrl;
-  pdfjsLib.getDocument(pageParams.pdf).promise.then(function(pdfDoc_) {
+  pdfjsLib.getDocument(data.pdf).promise.then(function(pdfDoc_) {
     pdfDoc = pdfDoc_;
     var pdf = pdfDoc_;
 
@@ -94,17 +93,18 @@ function handleClickOnCursorPosition(canvas, event) {
   const yPercent = y / canvas.height;
 
   console.log("xPercent: " + xPercent + " yPercent: " + yPercent);
-
+  
   //Check if click is in a link box
-  for (var i = 0; i < pageParams.regions.length; i++) {
-      //console.log(pageParams.regions[i]);
+  for (var i = 0; i < pageParams.length; i++) {
+      //console.log(pageParams[i]);
 
-      if( xPercent > pageParams.regions[i].x && xPercent < pageParams.regions[i].x + pageParams.regions[i].width) {
-        if( yPercent > pageParams.regions[i].y && yPercent < pageParams.regions[i].y + pageParams.regions[i].height) {
-          console.log(pageParams.regions[i].target);
+      if( xPercent > pageParams[i].x && xPercent < pageParams[i].x + pageParams[i].width) {
+        if( yPercent > pageParams[i].y && yPercent < pageParams[i].y + pageParams[i].height) {
+          console.log(pageParams[i].target);
 
-          window.location.href = pageParams.regions[i].target.replace("https://", "sblank://").replace("http://", "blank://");
+          window.location.href = pageParams[i].target.replace("https://", "sblank://").replace("http://", "blank://");
         }
       }
+      
   }
 }
