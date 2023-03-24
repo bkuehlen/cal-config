@@ -2,10 +2,10 @@
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
+
 let calendarVendor = params.vendor;
 let calendarYear = parseInt(params.year);
 let pageNum = parseInt(params.page);
-let pdfUrl = params.pdf;
 
 //Reading JSON File
 function readTextFile(file, callback) {
@@ -33,12 +33,12 @@ readTextFile(calendarVendor + "/" + calendarYear + "/links.json", function(text)
   var data = JSON.parse(text);
   pageParams = data[pageNum-1];
   console.log(pageParams);
-
+  
   /**
    * Asynchronously downloads PDF.
    */
   // pageParams.pdfUrl;
-  pdfjsLib.getDocument(pdfUrl).promise.then(function(pdfDoc_) {
+  pdfjsLib.getDocument(pageParams.pdf).promise.then(function(pdfDoc_) {
     pdfDoc = pdfDoc_;
     var pdf = pdfDoc_;
 
