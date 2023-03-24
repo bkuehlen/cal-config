@@ -89,10 +89,11 @@ function handleClickOnCursorPosition(canvas, event) {
   const x = event.clientX - rect.left;
   const y = event.clientY - rect.top;
 
-  const xPercent = x / canvas.width;
-  const yPercent = y / canvas.height;
+  //const xPercent = x / canvas.width;
+  //const yPercent = y / canvas.height;
 
-  console.log("xPercent: " + xPercent + " yPercent: " + yPercent);
+  const xPercent = x / rect.width;
+  const yPercent = y / rect.height;
   
   //Check if click is in a link box
   for (var i = 0; i < pageParams.length; i++) {
@@ -102,7 +103,7 @@ function handleClickOnCursorPosition(canvas, event) {
         if( yPercent > pageParams[i].y && yPercent < pageParams[i].y + pageParams[i].height) {
           console.log(pageParams[i].target);
 
-          window.location.href = pageParams[i].target.replace("https://", "sblank://").replace("http://", "blank://") + "?x=" + xPercent + "&y=" + yPercent;
+          window.location.href = pageParams[i].target.replace("https://", "sblank://").replace("http://", "blank://"); // + "?x=" + xPercent + "&y=" + yPercent;
         }
       }
       
